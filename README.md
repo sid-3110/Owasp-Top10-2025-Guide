@@ -1,11 +1,12 @@
 # 🛡️ OWASP Top 10 — Complete Beginner's Interactive Guide
 
-> A free, self-contained interactive web guide that takes absolute beginners from zero web security knowledge to OWASP Top 10 interview-ready. No sign-up. No install. Open in any browser.
+> A free, self-contained interactive web guide that takes absolute beginners from zero web security knowledge to OWASP Top 10 interview-ready. No sign-up. No install. Works fully offline. Responsive on every device.
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Open_Guide-e84141?style=for-the-badge)](https://YOUR_USERNAME.github.io/owasp-beginners-guide)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Open_Guide-e84141?style=for-the-badge)](https://sid-3110.github.io/owasp-beginners-guide/owasp-guide.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Pages](https://img.shields.io/badge/Modules-19-blue?style=for-the-badge)]()
+[![Modules](https://img.shields.io/badge/Modules-19-blue?style=for-the-badge)]()
 [![Zero Install](https://img.shields.io/badge/Setup-Zero_Install-orange?style=for-the-badge)]()
+[![Responsive](https://img.shields.io/badge/Devices-Mobile%20%7C%20Tablet%20%7C%20Desktop-a78bfa?style=for-the-badge)]()
 
 ---
 
@@ -60,6 +61,8 @@
 
 ## ✨ Features
 
+- **Fully responsive** — works on mobile phones, tablets (iPad), laptops, and large monitors
+- **Mobile sidebar drawer** — hamburger menu (☰) slides in the full navigation on small screens
 - **Zero setup** — single HTML file, open directly in browser, works fully offline
 - **Real attack demonstrations** — actual payload examples in annotated code blocks
 - **SOC alert view** — every vulnerability shown as a real SIEM/WAF alert with investigation steps
@@ -72,16 +75,28 @@
 
 ---
 
+## 📱 Device Support
+
+| Device | Experience |
+|--------|-----------|
+| 📱 Mobile (≤768px) | Hamburger menu, stacked layout, scrollable tables, full-width buttons |
+| 📱 Small phones (≤390px) | Ultra-compact, single-column everything |
+| 📟 Tablet / iPad (768–1024px) | Narrowed sidebar, 2-column grids, optimized padding |
+| 💻 Laptop / Desktop (1024–1400px) | Full sidebar, all features |
+| 🖥️ Large monitors (≥1400px) | Expanded content width, larger typography |
+
+---
+
 ## 🚀 Quick Start
 
 ### View Online
 ```
-https://YOUR_USERNAME.github.io/owasp-beginners-guide
+https://sid-3110.github.io/owasp-beginners-guide/owasp-guide.html
 ```
 
 ### Run Locally
 ```bash
-git clone https://github.com/YOUR_USERNAME/owasp-beginners-guide.git
+git clone https://github.com/sid-3110/owasp-beginners-guide.git
 cd owasp-beginners-guide
 
 # macOS
@@ -142,7 +157,7 @@ Contributions welcome. Especially needed:
 
 1. Fork the repo
 2. `git checkout -b feature/your-improvement`
-3. Make changes + test in browser
+3. Make changes + test in browser (resize to mobile!)
 4. Submit Pull Request
 
 ---
@@ -161,9 +176,9 @@ MIT — free to use, share, and modify for any purpose.
 
 ## 🔗 Connect
 
-Built by siddharth
-- LinkedIn: https://www.linkedin.com/in/siddharth-kamble-311046mvp?utm_source=share_via&utm_content=profile&utm_medium=member_android
-- GitHub: [github.com/YOUR_USERNAME](https://github.com/sid-3110
+Built by Siddharth Kamble
+- LinkedIn: https://www.linkedin.com/in/siddharth-kamble-311046mvp
+- GitHub: https://github.com/sid-3110
 
 ---
 *Open an issue if anything is outdated, incorrect, or missing. PRs are always welcome.*
